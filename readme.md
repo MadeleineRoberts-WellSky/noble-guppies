@@ -6,7 +6,7 @@ Install on Windows;
 
 - [WSL 2](https://docs.microsoft.com/en-us/windows/wsl/install-win10)
 - [Docker with WSL 2 backend](https://docs.docker.com/docker-for-windows/wsl/)
-- [VSCode](https://code.visualstudio.com/) with [Remote - WSL Extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-wsl)
+- [VSCode](https://code.visualstudio.com/) with [Remote - WSL](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-wsl) and [Docker](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker) extensions
 
 Install on WSL:
 
@@ -60,4 +60,4 @@ wget -O .gitignore https://raw.githubusercontent.com/github/gitignore/master/Vis
 code .
 ```
 
-Press F5 (within VSCode) to create launch configuration (select .Net Core).
+Press F5 (within VSCode) to create launch configuration (select .Net Core).  Add Docker-related files by pressing F1 and selecting "Docker: Add Docker Files to Workspace."

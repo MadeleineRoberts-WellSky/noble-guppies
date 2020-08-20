@@ -13,7 +13,7 @@ Install on WSL:
 - [Git](https://git-scm.com/download/linux)
 - [.Net Core](https://docs.microsoft.com/en-us/dotnet/core/install/linux)
 
-Clone this repository from within WSL, and open with VSCode:
+Clone this repository from within WSL:
 
 ```
 git clone https://github.com/MadeleineRoberts-WellSky/noble-guppies.git

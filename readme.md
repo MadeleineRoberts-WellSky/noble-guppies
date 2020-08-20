@@ -47,12 +47,17 @@ Site will be running at http://localhost:5000/WeatherForecast.
 
 ## Script to Create Project
 
+This application was originally created in WSL 2 using the command line and VSCode.
+
 ```
 # Create new .Net Core Wep API
 dotnet new webapi --name "Noble Guppies" --output ./noble-guppies-demo
 
 # Download .gitignore
 wget -O .gitignore https://raw.githubusercontent.com/github/gitignore/master/VisualStudio.gitignore
+
+# Open current directory with VSCode
+code .
 ```
 
-Press F5 to create launch configuration (select .Net Core).
+Press F5 (within VSCode) to create launch configuration (select .Net Core).

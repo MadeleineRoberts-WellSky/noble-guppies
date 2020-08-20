@@ -1,5 +1,26 @@
 # Noble Guppies Demo Application
 
+## Prerequisites
+
+Install on Windows;
+
+- [WSL 2](https://docs.microsoft.com/en-us/windows/wsl/install-win10)
+- [Docker with WSL 2 backend](https://docs.docker.com/docker-for-windows/wsl/)
+- [VSCode](https://code.visualstudio.com/) with [Remote - WSL Extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-wsl)
+
+Install on WSL:
+
+- Git
+- [.Net Core](https://docs.microsoft.com/en-us/dotnet/core/install/linux)
+
+Clone this repository from within WSL, and open with VSCode:
+
+```
+git clone https://github.com/MadeleineRoberts-WellSky/noble-guppies.git
+
+code noble-guppies
+```
+
 ## Running the Demo in VSCode
 
 ### Outside Docker
@@ -34,4 +55,4 @@ dotnet new webapi --name "Noble Guppies" --output ./noble-guppies-demo
 wget -O .gitignore https://raw.githubusercontent.com/github/gitignore/master/VisualStudio.gitignore
 ```
 
-Press F5 to create launch configuration (select .Net Core).  Will be running at https://localhost:5001/WeatherForecast.
+Press F5 to create launch configuration (select .Net Core).

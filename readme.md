@@ -10,7 +10,7 @@ Install on Windows;
 
 Install on WSL:
 
-- Git
+- [Git](https://git-scm.com/download/linux)
 - [.Net Core](https://docs.microsoft.com/en-us/dotnet/core/install/linux)
 
 Clone this repository from within WSL, and open with VSCode:

@@ -27,7 +27,7 @@ code noble-guppies
 
 Press F5 to debug app.  VSCode will open a browser window.
 
-To run from command line (without starting debugger):
+To run from WSL command line or VSCode [Integrated Terminal](https://code.visualstudio.com/docs/editor/integrated-terminal) (without starting debugger):
 
 ```
 dotnet run --project "./noble-guppies-demo/Noble Guppies.csproj"

@@ -45,6 +45,12 @@ Site will be running at https://localhost:5001/WeatherForecast.
 
 ### Docker
 
+Run "Development" version in Docker:
+
+```
+docker-compose -f docker-compose.debug.yml up
+```
+
 Run "Production" version in Docker:
 
 ```

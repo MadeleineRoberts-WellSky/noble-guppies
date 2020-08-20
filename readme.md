@@ -6,7 +6,7 @@ Install on Windows;
 
 - [WSL 2](https://docs.microsoft.com/en-us/windows/wsl/install-win10)
 - [Docker with WSL 2 backend](https://docs.docker.com/docker-for-windows/wsl/)
-- [VSCode](https://code.visualstudio.com/) with [Remote - WSL](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-wsl) and [Docker](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker) extensions
+- [VSCode](https://code.visualstudio.com/) with [Remote - WSL](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-wsl) and [Docker](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker) extensions (required only for "Debugging" workflow)
 
 Install on WSL:
 
@@ -18,14 +18,22 @@ Clone this repository from within WSL, and open with VSCode:
 ```
 git clone https://github.com/MadeleineRoberts-WellSky/noble-guppies.git
 
-code noble-guppies
+cd noble-guppies
 ```
 
 ## Running the Demo in VSCode
 
-### Outside Docker
+### Debugging with VSCode
+
+Open cloned directory with VSCode:
+
+```
+code .
+```
 
 Press F5 to debug app.  VSCode will open a browser window.
+
+### .Net Core CLI
 
 To run from WSL command line or VSCode [Integrated Terminal](https://code.visualstudio.com/docs/editor/integrated-terminal) (without starting debugger):
 

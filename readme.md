@@ -6,7 +6,7 @@ Install on Windows;
 
 - [WSL 2](https://docs.microsoft.com/en-us/windows/wsl/install-win10)
 - [Docker with WSL 2 backend](https://docs.docker.com/docker-for-windows/wsl/)
-- [VSCode](https://code.visualstudio.com/) with [Remote - WSL](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-wsl) and [Docker](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker) extensions (required only for "Debugging" workflow)
+- [VSCode](https://code.visualstudio.com/) with [Remote - WSL](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-wsl), [C#](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csharp), and [Docker](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker) extensions (required only for "Debugging" workflow)
 
 Install on WSL:
 
